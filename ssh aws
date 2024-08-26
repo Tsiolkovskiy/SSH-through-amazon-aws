@@ -1,0 +1,21 @@
+PS C:\Users\PC> cd ./Desktop/
+PS C:\Users\PC\Desktop> ssh -i '.\ec2 tutor.pem' ec2-user@3.17.151.21
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions for '.\\ec2 tutor.pem' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key ".\\ec2 tutor.pem": bad permissions
+ec2-user@3.17.151.21: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+PS C:\Users\PC\Desktop> ssh -i '.\ec2 tutor.pem' ec2-user@3.17.151.21
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
